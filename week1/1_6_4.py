@@ -5,7 +5,7 @@ def get(parent, child):
     if parent in class_graph[child] or parent == child:
         # x = 'Yes'
         return 'Yes'
-        # for i in range(len(class_graph[child])):
+    # for i in range(len(class_graph[child])):
     for i in class_graph[child]:
         # while class_graph[child] != 'None' and x == '':
         if class_graph[child] != []:  # and x == '':   if not
